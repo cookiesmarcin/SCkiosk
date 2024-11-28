@@ -58,6 +58,12 @@
     </div>
 
     <script>
+        // Ustawienie ciasteczek przed otwarciem strony
+        document.cookie = "Personal_token=g7iI1sfcnUsjB7m_RBXtDKSdK8kl_y0J; path=/; domain=snapcheck.eu; Secure; SameSite=None";
+        document.cookie = "SerialNo=awizacja1235; path=/; domain=snapcheck.eu; Secure; SameSite=None";
+
+        console.log("Ciasteczka ustawione:", document.cookie); // Dla debugowania w konsoli
+
         function openPage(url) {
             // Wpisz dynamicznie adres URL
             const iframe = document.createElement('iframe');
